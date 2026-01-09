@@ -96,7 +96,7 @@ footer {
 }
 
 body {
-    background-image: url("ssiems.png");
+    background-image: url("https://github.com/geetakadam275/SSIEMS-Elib/blob/main/ssiems.png");
     background-size: contain;   
     background-repeat: no-repeat;
     background-position: center top;
@@ -185,4 +185,5 @@ a:hover {
 .paper-link small {
     color: #666;
     font-size: 12px;
+
 }
