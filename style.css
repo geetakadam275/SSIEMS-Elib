@@ -1,0 +1,188 @@
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-image: url("ssiems.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.40); 
+    z-index: -1;
+}
+
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto
+}
+
+
+.card {
+    background: #ffffff;
+    border-top: 5px solid #003366;   /* NAVY BLUE */
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+  
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+
+.card h2 {
+    color: #003366;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #003366;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.card button:hover {
+    background: #0055aa;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+body {
+    background-image: url("ssiems.png");
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #f0f4ff; 
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+body {
+    background-image: url("images/ssiems.png");
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    font-family: Arial;
+    text-align: center;
+}
+
+
+
+
+a {
+    display: block;
+    width: 260px;
+    margin: 15px auto;
+    padding: 12px 15px;
+    text-align: center;
+
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.4);
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 15px;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: 0.3s;
+}
+
+a:hover {
+    background: rgba(255,255,255,0.35);
+    transform: translateY(-3px);
+}
+
+
+
+
+
+
+.paper-link {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.paper-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.paper-link a:hover {
+    text-decoration: underline;
+}
+
+.paper-link small {
+    color: #666;
+    font-size: 12px;
+}
